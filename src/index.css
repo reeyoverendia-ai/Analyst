@@ -27,10 +27,10 @@ body {
   /* ✅ THE 4-COLOR BRAND GRADIENT (Patterned after your executive logic) */
   background: linear-gradient(
     180deg, 
-    #FFFFF0 0%,    /* 1. Ivory Top */
-    #FFF0DB 30%,   /* 2. Cream Peach Bridge */
-    #E5DCCB 65%,   /* 3. Champagne Sand Core */
-    #B8AD9E 100%   /* 4. Deep Sand Base */
+    #FFFFF0 0%,    /* 1. The Ivory you like */
+    #FFF0DB 20%,   /* 2. The Peach (Pastel Blue variable) - moved up */
+    #D1D9E0 60%,   /* 3. NEW: A true muted Pastel Blue-Grey undertone */
+    #C4B9AA 100%   /* 4. The Linen Taupe to anchor it */
   ) !important;
   background-attachment: fixed !important;
   
