@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+:root {
+  /* THE NEW BRAND PALETTE MAP */
+  --pastel-blue: #FFF0DB;   /* Using your new Cream Peach for the button/glow base */
+  --linen-taupe: #C4B9AA;   /* Champagne Sand */
+  --champagne: #FFFFF0;     /* Ivory */
+  --ebony-clay: #4A443F;    /* Deepest Espresso - Headings */
+  --warm-stone: #635D59;    /* Medium Stone - Body Text */
+  --muted-taupe: #8E8680;   /* Lightest Taupe - Small Labels */
+}
+
+/* Force structural layers to be transparent to let the gradient breathe */
+#root, #root > div, main, section {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* ✅ THE 4-COLOR BRAND GRADIENT (Patterned after your executive logic) */
+  background: linear-gradient(
+    180deg, 
+    #FFFFF0 0%,    /* 1. Ivory Top */
+    #FFF0DB 30%,   /* 2. Cream Peach Bridge */
+    #E5DCCB 65%,   /* 3. Champagne Sand Core */
+    #B8AD9E 100%   /* 4. Deep Sand Base */
+  ) !important;
+  background-attachment: fixed !important;
+  
+  /* CRITICAL: Dark text for the Executive contrast */
+  color: #2D2A26 !important; 
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- Typography (From your Screenshot) --- */
+
+.text-heading {
+  color: var(--ebony-clay);
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+.text-body {
+  color: var(--warm-stone);
+  opacity: 1; 
+  line-height: 1.7;
+}
+
+.text-label {
+  color: #8C7355; 
+  font-size: 13px; /* Upgraded from 0.75rem (~12px) for better visibility */
+  letter-spacing: 0.25em; 
+  text-transform: uppercase;
+  font-weight: 800; /* Increased to Ultra-Bold for a premium look */
+  display: block;
+}
+
+/* --- EXECUTIVE DARK-TINT GLASS --- */
+
+.glass-card {
+  /* This is the secret: a tiny bit of dark taupe (0.08) rather than white */
+  background: rgba(45, 42, 40, 0.08) !important; 
+  
+  /* High blur for that premium depth */
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  
+  /* The Muted Gold frame */
+  border: 1px solid rgba(142, 125, 98, 0.3) !important; 
+  
+  /* Very light shadow to keep it from looking "heavy" */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+  
+  border-radius: 3rem;
+  transition: all 0.3s ease;
+}
+
+.glass-soft {
+  background: rgba(45, 42, 40, 0.05) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(142, 125, 98, 0.15) !important;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.glass-soft:focus-within {
+  background: rgba(255, 240, 219, 0.1) !important; /* Uses your Cream Peach for focus */
+  border: 1px solid #FFF0DB !important; 
+  box-shadow: 0 0 20px rgba(255, 240, 219, 0.2) !important;
+  outline: none;
+}
+
+/* --- BUTTONS --- */
+
+.premium-button {
+  background-color: #FFF0DB !important; /* Cream Peach */
+  color: #4A443F !important; 
+  font-weight: 700 !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.premium-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 240, 219, 0.4);
+  background-color: #FDFBF7 !important;
+}
+
+/* --- 3. THE "WORK WITH ME" UNIFIED BUTTON (Specific Overrides) --- */
+
+.nav-cta-button {
+  background-color: #4A443F !important;
+  color: #FFFFFF !important;
+  font-size: 0.875rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  padding: 12px 32px !important;
+  border-radius: 9999px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-cta-button:hover {
+  transform: scale(1.05) translateY(-2px);
+  /* The High-Intensity Aura Glow */
+  box-shadow: 0 0 35px rgba(244, 231, 218, 0.9), 0 0 15px rgba(255, 255, 255, 0.5) !important;
+  background-color: #5D544C !important;
+}
+
+.nav-cta-button:active {
+  transform: scale(0.95);
+}
+
+/* --- 4. ANIMATIONS --- */
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* --- 5. COMPONENT SPECIFIC FIXES --- */
+
+/* Ensures the contact success card checkmark glows */
+.success-checkmark-glow {
+  box-shadow: 0 0 30px rgba(244, 231, 218, 0.5);
+}
+
+/* Prevent image dragging to keep UI clean */
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Custom Scrollbar for the Premium look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5DACE;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold);
+}
