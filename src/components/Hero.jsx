@@ -23,7 +23,7 @@ const Hero = () => {
     e.preventDefault();
     document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
   }}
-  className="px-10 py-4 rounded-full font-extrabold tracking-widest uppercase text-[#FDFBF7] transition-all hover:scale-105 hover:bg-white/20
+  className="px-10 py-4 rounded-full font-extrabold tracking-widest uppercase text-[#4A443F] transition-all hover:scale-105 hover:bg-white/20
   active:scale-95 active:bg-white/30
     /* Base State */
     bg-white/10 
