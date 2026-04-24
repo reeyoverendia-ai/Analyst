@@ -84,7 +84,7 @@ const Resume = ({ setView }) => {
       </h2>
       <ul className="space-y-2 list-disc list-outside ml-5 text-[#4A443F] opacity-90">
       <li>
-      <strong className="font-bold">Testing & Tools:</strong> STLC / Manual Scripting, Regression / SIT / UAT, SAP S/4 HANA / HP ALM / SOLMAN
+      <strong className="font-bold">Testing & Tools:</strong> STLC / Manual Scripting, Regression / SIT / SAP S/4 HANA / OpenText AQM / SOLMAN
       </li>
        <li>
       <strong className="font-bold">Domain & Development:</strong> Workflow & Logic Testing, Email & Document Templates, Data Mapping & Integrity, Vite / React / Tailwind CSS
