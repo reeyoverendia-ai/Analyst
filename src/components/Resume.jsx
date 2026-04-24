@@ -57,16 +57,15 @@ const Resume = ({ setView }) => {
              +63 919 584 3301
              </a>
              
-             {/* GitHub - The New Addition */}
-            <a
-            href="https://github.com/reeyoverendia-ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
-           >
-           <Github size={16} className="text-[#8C7355]" />
-            <span>github.com/reeyoverendia-ai</span>
-               </a>
+<a
+  href="https://github.com/reeyoverendia-ai"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
+>
+  <Github size={16} className="text-[#8C7355]" />
+  <span>github.com/reeyoverendia-ai</span>
+</a>
             </div>
           </header>
      
