@@ -172,4 +172,5 @@ const Resume = ({ setView }) => {
     </div>
   );
 };
+
 export default Resume;
