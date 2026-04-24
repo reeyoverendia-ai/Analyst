@@ -68,9 +68,8 @@ const Resume = ({ setView }) => {
             <span>github.com/reeyoverendia-ai</span>
                </a>
             </div>
-          </div>
-        </header>
-
+          </header>
+     
         <section className="mb-10">
         <h2 className="text-[#8C7355] font-extrabold tracking-widest uppercase mb-4 text-sm">Summary</h2>
         <p className="text-[#4A443F] leading-relaxed opacity-90">
