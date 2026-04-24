@@ -65,7 +65,7 @@ const Resume = ({ setView }) => {
             className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
            >
            <GitHub size={16} className="text-[#8C7355]" />
-            <span>github.com/reeyoverendia-ai</span>
+            <span>https://github.com/reeyoverendia-ai</span>
                </a>
             </div>
           </header>
