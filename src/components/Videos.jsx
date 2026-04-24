@@ -52,7 +52,7 @@ export default function Videos() {
                   {item === 3 && "Negative Test Validation"}
                 </h4>
                 <p className="text-[#635D59] text-sm leading-relaxed">
-                  {item === 1 && "Demonstrating proficiency in Postman: Validating Status Codes (200 OK), response payloads, and basic API test scripts."}
+                  {item === 1 && "Demonstrating capability in Postman: Validating Status Codes (200 OK), response payloads, and basic API test scripts."}
                   {item === 2 && "Walkthrough of documenting technical anomalies in Jira, ensuring clear steps to reproduce for the development team."}
                   {item === 3 && "Demonstrating API error handling by simulating invalid payloads and verifying correct system error codes (e.g., 400 or 401)."}
                 </p>
