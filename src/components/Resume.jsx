@@ -58,16 +58,15 @@ const Resume = ({ setView }) => {
              </a>
              
              {/* GitHub - The New Addition */}
-             <div className="flex items-center gap-2">
-             <a
-             href="https://github.com/reeyoverendia-ai"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="flex items-center gap-2 hover:text-[#A7C1C1] transition-colors"
-             >
-             <Github size={18} />
-             <span>github.com/reeyoverendia-ai</span>
-             </a>
+            <a
+            href="https://github.com/reeyoverendia-ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
+           >
+           <Github size={16} className="text-[#8C7355]" />
+            <span>github.com/reeyoverendia-ai</span>
+               </a>
             </div>
           </div>
         </header>
