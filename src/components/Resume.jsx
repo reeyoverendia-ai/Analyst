@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Mail, MapPin, Download, ArrowLeft, GitHub } from 'lucide-react';
+import { MessageCircle, Mail, MapPin, Download, ArrowLeft, Globe } from 'lucide-react';
 
 const Resume = ({ setView }) => {
   return (
@@ -64,7 +64,7 @@ const Resume = ({ setView }) => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
            >
-           <GitHub size={16} className="text-[#8C7355]" />
+           <Globe size={16} className="text-[#8C7355]" />
             <span>https://github.com/reeyoverendia-ai</span>
                </a>
             </div>
