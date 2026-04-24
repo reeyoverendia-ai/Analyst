@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin, Download, ArrowLeft, Globe } from 'lucide-react';
+import { MessageCircle, Mail, MapPin, Download, ArrowLeft } from 'lucide-react';
 
 const Resume = ({ setView }) => {
   return (
@@ -46,16 +46,16 @@ const Resume = ({ setView }) => {
               <Mail size={16} className="text-[#8C7355]" /> reeverendia@duck.com
             </a>
             
-            {/* LINKEDIN LINE */}
-            <a 
-            href="https://www.linkedin.com/in/nyree-jo-verendia-a574aa52" 
-            target="_blank" 
+            {/* WHATSAPP LINE */}
+            <a
+            href="https://wa.me/639000000000" 
+            target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-[#8C7355] transition-colors"
              >
-             <Globe size={16} className="text-[#8C7355]" /> 
-               linkedin.com/in/nyree-jo-verendia
-              </a>
+             <MessageCircle size={16} className="text-[#8C7355]" />
+             +63 919 584 3301
+             </a>
           </div>
         </header>
 
