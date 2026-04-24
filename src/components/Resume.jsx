@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Mail, MapPin, Download, ArrowLeft } from 'lucide-react';
+import { MessageCircle, Mail, MapPin, Download, ArrowLeft, Github } from 'lucide-react';
 
 const Resume = ({ setView }) => {
   return (
@@ -35,7 +35,7 @@ const Resume = ({ setView }) => {
             NYREE JO <span className="text-[#8C7355]">VERENDIA</span>
           </h1>
           <h2 className="text-[#8C7355] text-lg md:text-xl font-bold tracking-[0.15em] uppercase mb-6">
-            Senior QA Analyst | QA Specialist
+            QA Analyst | QA Specialist
           </h2>
           
           <div className="flex flex-wrap gap-x-8 gap-y-4 text-[#4A443F]/80 font-medium text-xs md:text-sm">
@@ -56,6 +56,19 @@ const Resume = ({ setView }) => {
              <MessageCircle size={16} className="text-[#8C7355]" />
              +63 919 584 3301
              </a>
+             
+             {/* GitHub - The New Addition */}
+             <div className="flex items-center gap-2">
+             <a
+             href="https://github.com/reeyoverendia-ai"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="flex items-center gap-2 hover:text-[#A7C1C1] transition-colors"
+             >
+             <Github size={18} />
+             <span>github.com/reeyoverendia-ai</span>
+             </a>
+            </div>
           </div>
         </header>
 
