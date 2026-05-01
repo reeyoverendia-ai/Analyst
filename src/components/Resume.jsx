@@ -35,7 +35,7 @@ const Resume = ({ setView }) => {
             NYREE JO <span className="text-[#8C7355]">VERENDIA</span>
           </h1>
           <h2 className="text-[#8C7355] text-lg md:text-xl font-bold tracking-[0.15em] uppercase mb-6">
-            QA Analyst | QA Specialist
+            SAP QA Lead | QA Analyst
           </h2>
           
           <div className="flex flex-wrap gap-x-8 gap-y-4 text-[#4A443F]/80 font-medium text-xs md:text-sm">
@@ -103,7 +103,7 @@ const Resume = ({ setView }) => {
       </div>
         <ul className="space-y-4 list-disc list-outside ml-5 text-[#4A443F] opacity-90">
         <li><strong className="font-bold">Workflow & Logic Testing:</strong> Authored comprehensive test scripts for complex financial triggers and automated correspondence, ensuring 100% accuracy in conditional logic and system-generated templates.</li>
-        <li><strong className="font-bold">Defect Management:</strong> Resolved 5–10 high-priority "showstopper" defectsdefects per cycle related to system connectivity and data integrity, collaborating with cross-functional teams to streamline project health.</li>
+        <li><strong className="font-bold">Defect Management:</strong> Resolved 5–10 high-priority "showstopper" defects per cycle related to system connectivity and data integrity, collaborating with cross-functional teams to streamline project health.</li>
         <li><strong className="font-bold">Data Integrity:</strong> Led end-to-end SIT phases, ensuring seamless data flow across disparate modules and maintaining strict traceability via HP ALM.</li>
         <li><strong className="font-bold">Integration & API Logic:</strong> Orchestrated validation for 16 system migrationsto S/4 HANA. Verified "data handshakes" and payload accuracy between Legacy systems and SAP, applying the same principles used in API-driven integrations.</li>
         <li><strong className="font-bold">System Validation:</strong> Executed rigorous testing for financial disbursement cycles, focusing on UI consistency and back-end data accuracy.</li>
