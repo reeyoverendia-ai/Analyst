@@ -11,12 +11,12 @@ const skillCategories = [
     skills: ["SAP FS-CD", "Data Integrity", "Workflow Testing", "Audit Compliance"]
   },
   {
-    title: "Web Development",
-    skills: ["React / Vite", "Tailwind CSS", "JavaScript Basics", "Responsive Design"]
+    title: "Web Development & Automation Tools",
+    skills: ["React / Vite", "Tailwind CSS", "JavaScript Basics", "Responsive Design", "Postman/Playwright]
   },
   {
-    title: "E-commerce & API",
-    skills: ["Postman / API", "Product Research", "Listing Audits"]
+    title: "E-commerce",
+    skills: ["Supplier Sourcing", "Product Research", "Listing Audits"]
   }
 ];
 
