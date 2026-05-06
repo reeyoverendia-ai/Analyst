@@ -105,9 +105,9 @@ const Resume = ({ setView }) => {
         <li><strong className="font-bold">Workflow & Logic Testing:</strong> Authored comprehensive test scripts for complex financial triggers and automated correspondence, ensuring 100% accuracy in conditional logic and system-generated templates.</li>
         <li><strong className="font-bold">Defect Management:</strong> Resolved 5–10 high-priority "showstopper" defects per cycle related to system connectivity and data integrity, collaborating with cross-functional teams to streamline project health.</li>
         <li><strong className="font-bold">Data Integrity:</strong> Led end-to-end SIT phases, ensuring seamless data flow across disparate modules and maintaining strict traceability via HP ALM.</li>
-        <li><strong className="font-bold">Integration & API Logic:</strong> Orchestrated validation for 16 system migrations to S/4 HANA. Verified "data handshakes" and payload accuracy between Legacy systems and SAP, applying the same principles used in API-driven integrations.</li>
+        <li><strong className="font-bold">Integration & API Logic:</strong> Verified "data handshakes" and payload between accuracy Legacy systems and SAP via SAP PI/PO, aligned with API-driven integration principles.</li>
         <li><strong className="font-bold">System Validation:</strong> Managed end-to-end validation of DMEE-generated XML payment files, ensuring strict adherence to banking schemas. Coordinated directly with bank technical teams to verify successful transmission, schema compliance, and data reconciliation between SAP backend records and the bank's receiving system.</li>
-        <li><strong className="font-bold">Cross-Functional Coordination:</strong> Partnered with Business Analysts and Developers to resolve integration bottlenecks and optimize daily status reporting.</li>
+        <li><strong className="font-bold">Cross-Functional Coordination:</strong> Orchestrated validation for 16 system migrations to S/4 HANA. Partnered with Business Analysts and Developers to resolve integration bottlenecks and optimize daily status reporting.</li>
         </ul>
        </section>
         {/* PROJECTS & PROFESSIONAL DEVELOPMENT */}
