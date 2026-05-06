@@ -12,7 +12,7 @@ const skillCategories = [
   },
   {
     title: "Web Development & Automation Tools",
-    skills: ["React / Vite", "Tailwind CSS", "JavaScript Basics", "Responsive Design", "Postman/Playwright]
+    skills: ["React / Vite", "Tailwind CSS", "JavaScript Basics", "Responsive Design", "Postman/Playwright"]
   },
   {
     title: "E-commerce",
